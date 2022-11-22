@@ -9,11 +9,12 @@
 .home {
     background: #22242A;
     color: #fcfcfc;
-    background-image: url(./img/vector.svg);
+    background-image: url(../img/vector.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: 'Arial';
-    font-style: normal;
+    /* font-family: 'Arial';
+    font-style: normal; */
+    font-family: "Open Sans", Sans-serif;
     width: 100%;
 
 }
@@ -82,6 +83,14 @@ header ul li {
     line-height: px;
 }
 
+.vector2 {
+    position: absolute;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 355px;
+    left: 700px;
+    top: 170px;
+}
 
 
 
@@ -109,34 +118,44 @@ header ul li {
 
 }
 
-/* /* .p1{
-    margin: 20px;
-} */
 .p1 {
-    margin-bottom: 30PX;
+    margin-bottom: 30px;
 }
 
 
 .enfasis button {
     color: #fcfcfc;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     background: #FB4B00;
     border: 0;
     border-radius: 5px;
-    padding: 5px;
+    padding: 8px;
 }
 
 
 .div1 {
-    background-color: rgba(72, 72, 85, 0.7);
+    background: rgba(72, 72, 85, 0.7);
     backdrop-filter: blur(7.5px);
-    margin: 20px;
-    margin-bottom: 20px;
+    margin: 100px;
+    margin-bottom: -20px; 
     padding: 20px;
+    /* font-family:"Oswald", Sans-serif; */
+    font-family: "Open Sans", Sans-serif;
+    /* font-family: 'Arial';
+    font-style: normal; */
+    line-height: 25px;
+    padding-bottom: 40px;
+    justify-items: center;
+    align-items: center;
+}
+
+.equipo-container {
+    display: grid;
+    justify-content: center;
+    text-align: center;
     font-family: 'Arial';
     font-style: normal;
-    padding-bottom: 40px;
 }
 
 
@@ -225,8 +244,14 @@ header ul li {
 
 .tarjetas {
     display: flex;
+    text-align: center;
     font-size: 12px;
+    margin-left: 250px;
 
+}
+
+.divEquipo {
+    padding: 50px;
 }
 
 .tarjeta-s {
@@ -234,8 +259,9 @@ header ul li {
     border-radius: 8px;
     padding: 20px;
     margin: 25px;
-    text-align: center;
-    width: 100%;
+    justify-items: center;
+    align-items: center;
+
 }
 
 .tarjeta-s p {
