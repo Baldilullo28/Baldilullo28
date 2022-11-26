@@ -5,7 +5,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+
 /* BODY */
+
+header{
+    width: 100%;
+}
 .home {
     background: #22242A;
     color: #fcfcfc;
@@ -167,9 +172,16 @@ header ul li {
 }
 
 .footer {
+    width: 100%;
+    background-color:       #fcfcfc;
+    color: #22242A;
+    padding: 15px  0px;
     display: flex;
+     justify-content: space-evenly; 
+    gap: 20px;
 
 }
+
 
 
 
