@@ -8,17 +8,16 @@
 
 /* BODY */
 
-header{
+header {
     width: 100%;
 }
+
 .home {
     background: #22242A;
     color: #fcfcfc;
     background-image: url(../img/vector.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    /* font-family: 'Arial';
-    font-style: normal; */
     font-family: "Open Sans", Sans-serif;
     width: 100%;
 
@@ -34,6 +33,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 
 
 }
@@ -72,6 +72,8 @@ header ul li {
 
 
 
+
+
 /* CONTENIDO DE LA PAGINAA */
 .main1 {
     padding: 40px;
@@ -89,11 +91,11 @@ header ul li {
 }
 
 .vector2 {
-    position: absolute;
+    position: fixed;
     margin-bottom: 100px;
-    width: 500px;
+    width: 100px;
     height: 355px;
-    left: 700px;
+    left: 650px;
     top: 170px;
 }
 
@@ -143,7 +145,7 @@ header ul li {
     background: rgba(72, 72, 85, 0.7);
     backdrop-filter: blur(7.5px);
     margin: 100px;
-    margin-bottom: -20px; 
+    margin-bottom: -20px;
     padding: 20px;
     /* font-family:"Oswald", Sans-serif; */
     font-family: "Open Sans", Sans-serif;
@@ -173,16 +175,18 @@ header ul li {
 
 .footer {
     width: 100%;
-    background-color:       #fcfcfc;
+    background-color: #fcfcfc;
     color: #22242A;
-    padding: 15px  0px;
+    padding: 50px 20px;
     display: flex;
-     justify-content: space-evenly; 
+    justify-content: space-evenly;
     gap: 20px;
 
 }
 
+@media (min-width:576px){
 
+}
 
 
 
