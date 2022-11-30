@@ -10,42 +10,36 @@
 
 .home {
     background: #22242A;
-    color: #fcfcfc;
     background-image: url(../img/vector.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 100%;
+    background-size: contain;
+    background-repeat: repeat;
+    width: 100vmax;
+    color: #fcfcfc;
+
 
 }
 
 
 /* HEADER */
 
-header{
-    width: 100%;
-    height: 100%;
-}
 .navBar {
-    padding: 20px;
+    padding: 10px 20px;
     margin-bottom: 15px;
     background: rgba(17, 19, 22, 0.8);
+    backdrop-filter: blur(7.5px);
     backdrop-filter: blur(7.5px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    height: 100%;
-
-
-
+    width: 100vmax;
 }
 
-.linea{
+.linea {
     width: 300px;
     color: #fdfafa;
-    
+
 }
+
 .navBar p {
     padding: 15px;
     height: 450px;
@@ -62,6 +56,13 @@ a {
 ul,
 ol {
     list-style: none;
+}
+
+.navBar ul li a:hover {
+    background-color: #fb4b0055;
+    ;
+    padding: 8px;
+    border-radius: 2px;
 }
 
 header ul li {
@@ -150,8 +151,9 @@ header ul li {
 .div1 {
     background: rgba(72, 72, 85, 0.7);
     backdrop-filter: blur(7.5px);
+
     margin: 100px;
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     padding: 20px;
     font-family: "Open Sans", Sans-serif;
     line-height: 25px;
@@ -167,7 +169,6 @@ header ul li {
     font-family: 'Arial';
     font-style: normal;
 }
-
 
 
 
@@ -187,6 +188,8 @@ header ul li {
 }
 
 
+
+
 .footer {
     width: 100%;
     background-color: #fcfcfc;
@@ -198,8 +201,18 @@ header ul li {
 
 }
 
-@media(max-width:760px) {
-    .navBar {}
+@media screen and (max-width:760px) {
+    .navBar ul li {
+        display: grid;
+
+
+    }
+
+    .navBar {
+
+        width: 100%;
+        margin: 0px;
+    }
 
     .enfasis {
         padding: 0px;
@@ -215,7 +228,7 @@ header ul li {
 
     .enfasis .subtitulo1 {
         width: 400px;
-        font-size: 2rem;
+        font-size: 2.5rem;
         margin: 0px;
         padding: 0px;
     }
@@ -301,6 +314,10 @@ header ul li {
         width: 100%;
     }
 
+    .footer ul li {
+        list-style: none;
+    }
+
     .footer {
         width: 100%;
         display: block;
@@ -312,6 +329,110 @@ header ul li {
         margin: 0px;
         text-align: center;
     }
+}
+
+@media screen and (max-width:1200px) {
+    .home {
+        width: 100%;
+
+    }
+
+    header .navBar {
+        width: 100%;
+        font-size: 0.9rem;
+        justify-content: space-around;
+    }
+
+    .img-logo {
+        width: 110px;
+    }
+
+    .titulo1 {
+        font-size: 3rem;
+    }
+
+    .subtitulo1 {
+        font-size: 2rem;
+        padding: 0px;
+        margin: 0px;
+        font-family: "Open Sans", Sans-serif;
+    }
+
+    .enfasis p {
+        font-size: 1rem;
+    }
+
+    button {
+        width: 80px;
+        font-size: 1rem;
+    }
+
+    .div1 {
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    .div1 .subtitulo2 {
+        font-size: 2rem;
+    }
+
+    .divEquipo {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .equipo-container p {
+        font-size: 1rem;
+        font-family: "Open Sans", Sans-serif;
+    }
+
+    .proyecto {
+        color: #fcfcfc;
+    }
+
+    .proyecto h2 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .proyecto h3 {
+
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .proyecto2 {
+        text-align: center;
+    }
+
+    .proyecto2 p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contacto {
+        padding: 10px;
+        width: 100%;
+    }
+
+
+
+    .contacto h2 {
+        font-size: 2rem;
+    }
+
+    .contacto span {
+        font-size: 1rem;
+    }
+
+    .formulario {
+        align-items: center;
+    }
+
+    .formulario2 {
+        display: grid;
+    }
+
 }
 
 
