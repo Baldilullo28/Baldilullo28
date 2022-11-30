@@ -8,10 +8,6 @@
 
 /* BODY */
 
-header {
-    width: 100%;
-}
-
 .home {
     background: #22242A;
     color: #fcfcfc;
@@ -20,6 +16,7 @@ header {
     background-repeat: no-repeat;
     font-family: "Open Sans", Sans-serif;
     width: 100%;
+    height: 100%;
 
 }
 
@@ -64,7 +61,7 @@ header ul li {
 
 .vector {
     position: absolute;
-    left: -13.15%;
+    left: -11.50%;
     right: 100.92%;
     top: 0.84%;
     bottom: 91.95%;
@@ -78,6 +75,7 @@ header ul li {
 .main1 {
     padding: 40px;
     margin-top: 30px;
+    width: 100%;
 }
 
 .titulo1 {
@@ -91,12 +89,9 @@ header ul li {
 }
 
 .vector2 {
-    position: fixed;
-    margin-bottom: 100px;
-    width: 100px;
-    height: 355px;
-    left: 650px;
-    top: 170px;
+    position: absolute;
+    left: 600px;
+    top: 165px;
 }
 
 
@@ -147,10 +142,7 @@ header ul li {
     margin: 100px;
     margin-bottom: -20px;
     padding: 20px;
-    /* font-family:"Oswald", Sans-serif; */
     font-family: "Open Sans", Sans-serif;
-    /* font-family: 'Arial';
-    font-style: normal; */
     line-height: 25px;
     padding-bottom: 40px;
     justify-items: center;
@@ -173,6 +165,17 @@ header ul li {
     margin: 15px;
 }
 
+.formulario {
+    background-color: #fcfcfc;
+    padding: 20px;
+    width: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
 .footer {
     width: 100%;
     background-color: #fcfcfc;
@@ -184,7 +187,10 @@ header ul li {
 
 }
 
-@media (min-width:576px){
+@media screen and (min-width:768px){
+    
+
+    
 
 }
 
