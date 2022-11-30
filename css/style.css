@@ -101,12 +101,12 @@ header ul li {
 }
 
 .vector2 {
+    width: 100%;
+    background-color: #FB4B00;
     position: absolute;
     left: 600px;
     top: 165px;
 }
-
-
 
 .subtitulo1 {
     font-family: 'Arial';
@@ -136,7 +136,30 @@ header ul li {
     margin-bottom: 30px;
 }
 
+.contenedor-proyecto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
 
+.proyecto-img{
+    
+    width: 200px;
+    gap:20px
+}
+
+.proyecto h3{
+    padding: 10px;
+}
+.proyecto{
+    padding:30px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(72, 72, 85, 0.7);
+    
+}
 .enfasis button {
     color: #fcfcfc;
     margin-top: 50px;
@@ -169,10 +192,22 @@ header ul li {
     font-family: 'Arial';
     font-style: normal;
 }
+.divEquipo2{
+    padding: 20px;
+    width: 100%;
+    display:flex ;
+    align-items: center;}
+
+.tarjetas{    
+    width: 30px;
+}
+
+
 
 
 
 .subtitulo2 {
+    font-size: 2.5rem;
     text-align: center;
     margin: 15px;
 }
@@ -298,13 +333,17 @@ header ul li {
         background-color: #FB4B00;
     }
 
+    .proyecto {
+        margin-top: 30px;
+        background-color: rgba(72, 72, 85, 0.7);
+    }
+
     .proyecto h2 {
         text-align: center;
         font-size: 1.7rem;
     }
 
     .proyecto h3 {
-        background-color: #FB4B00;
         font-size: 1.1rem;
         text-align: center;
     }
@@ -376,6 +415,10 @@ header ul li {
         font-size: 2rem;
     }
 
+    .divEquipo2{
+        display: grid;
+    }
+
     .divEquipo {
         padding: 0px;
         margin: 0px;
@@ -384,6 +427,10 @@ header ul li {
     .equipo-container p {
         font-size: 1rem;
         font-family: "Open Sans", Sans-serif;
+    }
+
+    .contenedor-proyecto{
+        display: grid;
     }
 
     .proyecto {
