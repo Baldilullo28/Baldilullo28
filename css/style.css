@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lato', Sans-serif;
 }
 
 
@@ -14,7 +14,6 @@
     background-image: url(../img/vector.svg);
     background-size: cover;
     background-repeat: no-repeat;
-    font-family: "Open Sans", Sans-serif;
     width: 100%;
     min-height: 100%;
 
@@ -22,6 +21,11 @@
 
 
 /* HEADER */
+
+header{
+    width: 100%;
+    height: 100%;
+}
 .navBar {
     padding: 20px;
     margin-bottom: 15px;
@@ -31,10 +35,17 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    height: 100%;
+
 
 
 }
 
+.linea{
+    width: 300px;
+    color: #fdfafa;
+    
+}
 .navBar p {
     padding: 15px;
     height: 450px;
@@ -187,82 +198,121 @@ header ul li {
 
 }
 
-@media(max-width:760px){
-    .navBar{
-        
-    }
-    .enfasis{
+@media(max-width:760px) {
+    .navBar {}
+
+    .enfasis {
         padding: 0px;
-        margin:0px;
-        
+        margin: 0px;
+
     }
 
-    .enfasis h1{
-    font-size: 2.5rem;
-    width: 400px;
-    
+    .enfasis h1 {
+        font-size: 2.5rem;
+        width: 400px;
+
     }
-    .enfasis .subtitulo1{
-        width:400px;
+
+    .enfasis .subtitulo1 {
+        width: 400px;
         font-size: 2rem;
         margin: 0px;
         padding: 0px;
     }
 
-    .enfasis .p1{
+    .enfasis .p1 {
         font-size: 1rem;
         background-color: #FB4B00;
         width: 300px;
-        
+
     }
 
-    .enfasis .p2{
+    .enfasis .p2 {
         font-size: 1rem;
         width: 300px;
 
     }
 
-    .div1{
+    .div1 {
         width: 100%;
         font-size: 1rem;
         margin: 0px;
-        
-    
+
+
 
     }
-    .equipo-container{
-        background-color: #FB4B00;
+
+    .div1 .subtitulo2 {
+        font-size: 2rem;
     }
 
-    .divEquipo h3{
+    .divEquipo h2 {
+        font-size: 2rem;
+    }
+
+    .divEquipo h3 {
         width: 300px;
-        font-size: 1.3rem;
-    padding-bottom: 15px ;
+        font-size: 1.5rem;
+        padding-bottom: 15px;
 
     }
-    .divEquipo p{
-        width:300px;
+
+    .divEquipo p {
+        width: 300px;
         text-align: justify;
     }
 
 
 
-    .tarjetas{
+    .tarjetas {
         width: 100%;
         flex-direction: column;
         flex-wrap: wrap;
         position: relative;
         right: 250px;
-
-        
-    
-
     }
 
-    .tarjeta-s{
+    .proyecto2 {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .proyecto-img {
+        width: 200px;
+    }
+
+    .tarjeta-s {
         background-color: #FB4B00;
     }
-} 
+
+    .proyecto h2 {
+        text-align: center;
+        font-size: 1.7rem;
+    }
+
+    .proyecto h3 {
+        background-color: #FB4B00;
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .formulario {
+        text-align: center;
+        width: 100%;
+    }
+
+    .footer {
+        width: 100%;
+        display: block;
+    }
+
+    .footer2 {
+        /* background-color: #FB4B00; */
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+}
 
 
 
