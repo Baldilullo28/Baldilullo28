@@ -31,7 +31,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vmax;
 }
 
 .linea {
@@ -63,12 +62,15 @@ ol {
     ;
     padding: 8px;
     border-radius: 2px;
+    all: 1s;
 }
 
 header ul li {
     display: inline-block;
     /* gap: 20px;  */
     width: 110px;
+    justify-content: center;
+    align-items: center;
 }
 
 .vector {
@@ -170,6 +172,12 @@ header ul li {
     padding: 8px;
 }
 
+.enfasis button a:hover{
+    background-color: #f4f2f255;
+    ;
+
+}
+
 
 .div1 {
     background: rgba(72, 72, 85, 0.7);
@@ -193,7 +201,7 @@ header ul li {
     font-style: normal;
 }
 .divEquipo2{
-    padding: 20px;
+    padding: 50px;
     width: 100%;
     display:flex ;
     align-items: center;}
@@ -202,7 +210,27 @@ header ul li {
     width: 30px;
 }
 
+.icon-contacto{
+padding: 10px;
+}
+.icon-contacto i{
+    font-size: 2rem;
+    color: #FB4B00;
+}
 
+.contacto{
+    width: 50%;
+}
+.contacto h2{
+    padding: 20px;
+}
+
+.contacto2{
+    padding: 15px;
+    width: 100%;
+    height: 100%;
+
+}
 
 
 
