@@ -76,13 +76,17 @@ header ul li {
     justify-content: center;
     align-items: center;
 }
+.vector img{
+    width: 150px;
+}
 
 .vector {
+    
     position: absolute;
-    left: -11.50%;
-    right: 100.92%;
-    top: 0.84%;
-    bottom: 91.95%;
+    left: -0.100%;
+    right: 30.60%;
+    top: 7.84%;
+    bottom: 5.95%;
 }
 
 
@@ -91,12 +95,14 @@ header ul li {
 
 /* CONTENIDO DE LA PAGINAA */
 .main1 {
+    position: relative;
     padding: 40px;
     margin-top: 30px;
     width: 100%;
 }
 
 .titulo1 {
+    
     padding: 0px;
     margin-top: 0px;
     font-family: 'Arial Rounded MT Bold';
@@ -107,11 +113,13 @@ header ul li {
 }
 
 .vector2 {
-    width: 100%;
-    background-color: #FB4B00;
     position: absolute;
-    left: 600px;
-    top: 165px;
+    left: 783px;
+    top: 240px;
+}
+
+.vector2 img{
+    width: 480px;
 }
 
 .subtitulo1 {
@@ -153,15 +161,17 @@ header ul li {
 .proyecto-img {
 
     width: 200px;
-    gap: 20px
 }
 
 .proyecto h3 {
-    padding: 10px;
+    padding: 20px;
 }
 
 .proyecto {
-    padding: 30px;
+   margin-right: 100px;
+   margin-left: 100px;
+   padding-top: 30px;
+   padding-bottom: 35px;
     justify-content: center;
     text-align: center;
     background-color: rgba(72, 72, 85, 0.7);
@@ -196,26 +206,35 @@ header ul li {
     line-height: 25px;
     padding-bottom: 40px;
     justify-items: center;
-    align-items: center;
+     align-items: center;
+}
+picture img{
+    width:160px ;
 }
 
 .equipo-container {
-    display: grid;
-    justify-content: center;
-    text-align: center;
+    /* display: grid; */
+    /* justify-content: center; */
+    text-align: center; 
     font-family: 'Arial';
     font-style: normal;
-}
+} 
 
 .divEquipo2 {
     padding: 50px;
     width: 100%;
-    display: flex;
+     display: flex; 
     align-items: center;
 }
 
-.tarjetas {
-    width: 30px;
+.divEquipo h3{
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+
+.divEquipo p{
+    font-size: 1rem;
 }
 
 .icon-contacto {
@@ -281,13 +300,20 @@ header ul li {
 
 .footer {
     width: 100%;
-    background: #FCFCFC;
+    background: #F3F4F6;
     color: #22242A;
     padding: 50px 20px;
     display: flex;
     justify-content: space-evenly;
     gap: 20px;
 
+}
+.footer2 p {
+    color: #6B7280;
+}
+
+.footer2 span{
+    color: #6B7280;
 }
 
 @media screen and (max-width:760px) {
@@ -494,7 +520,9 @@ header ul li {
     }
 
     .divEquipo2 {
-        display: grid;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
     }
 
     .divEquipo {
@@ -502,14 +530,21 @@ header ul li {
         margin: 0px;
     }
 
+    .tarjetas {
+        font-size: 12px;
+        margin-left: 90px; 
+    
+    }
+    
+
     .equipo-container p {
         font-size: 1rem;
         font-family: "Open Sans", Sans-serif;
     }
 
-    .contenedor-proyecto {
+    /* .contenedor-proyecto {
         display: grid;
-    }
+    }  */
 
     .proyecto {
         color: #fcfcfc;
@@ -638,10 +673,8 @@ header ul li {
 }
 
 .tarjetas {
-    display: flex;
-    text-align: center;
     font-size: 12px;
-    margin-left: 250px;
+    margin-left: 150px;
 
 }
 
