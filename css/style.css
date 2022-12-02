@@ -138,7 +138,7 @@ header ul li {
     margin-bottom: 30px;
 }
 
-.contenedor-proyecto{
+.contenedor-proyecto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,22 +146,24 @@ header ul li {
     justify-content: space-around;
 }
 
-.proyecto-img{
-    
+.proyecto-img {
+
     width: 200px;
-    gap:20px
+    gap: 20px
 }
 
-.proyecto h3{
+.proyecto h3 {
     padding: 10px;
 }
-.proyecto{
-    padding:30px;
+
+.proyecto {
+    padding: 30px;
     justify-content: center;
     text-align: center;
     background-color: rgba(72, 72, 85, 0.7);
-    
+
 }
+
 .enfasis button {
     color: #fcfcfc;
     margin-top: 50px;
@@ -172,7 +174,7 @@ header ul li {
     padding: 8px;
 }
 
-.enfasis button a:hover{
+.enfasis button a:hover {
     background-color: #f4f2f255;
     ;
 
@@ -200,33 +202,37 @@ header ul li {
     font-family: 'Arial';
     font-style: normal;
 }
-.divEquipo2{
+
+.divEquipo2 {
     padding: 50px;
     width: 100%;
-    display:flex ;
-    align-items: center;}
+    display: flex;
+    align-items: center;
+}
 
-.tarjetas{    
+.tarjetas {
     width: 30px;
 }
 
-.icon-contacto{
-padding: 10px;
+.icon-contacto {
+    padding: 10px;
 }
-.icon-contacto i{
+
+.icon-contacto i {
     font-size: 2rem;
     color: #FB4B00;
 }
 
-.contacto{
+.contacto {
     width: 100%;
 }
-.contacto h2{
+
+.contacto h2 {
     font-size: 2rem;
     padding: 20px;
 }
 
-.contacto2{
+.contacto2 {
     padding: 15px;
     width: 100%;
     height: 100%;
@@ -241,30 +247,30 @@ padding: 10px;
     margin: 15px;
 }
 
-.container-formulario{
+.container-formulario {
     width: 50%;
     height: 100%;
 }
 
-.formulario{
+.formulario {
     background-color: #ffffff;
     width: 72%;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top:  30px;
+    padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 3px;
 }
 
-.formulario1{
-    padding: 0; 
+.formulario1 {
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.formulario2{
+.formulario2 {
     width: 190px;
     height: 35px;
 }
@@ -282,15 +288,24 @@ padding: 10px;
 }
 
 @media screen and (max-width:760px) {
-    .navBar ul li {
-        display: grid;
+    .home {
+        width: 100vh;
+    }
+
+    .main1 {
+        width: 100%;
+    }
+
+    header .navBar {
+        display: inline-block;
+
 
 
     }
 
     .navBar {
 
-        width: 100%;
+        width: 10%;
         margin: 0px;
     }
 
@@ -344,14 +359,25 @@ padding: 10px;
     }
 
     .divEquipo h3 {
-        width: 300px;
+
+        width: 400px;
         font-size: 1.5rem;
-        padding-bottom: 15px;
+        padding-bottom: 30px;
 
     }
 
+    .equipo-container {
+        /* background-color: aqua; */
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+
     .divEquipo p {
-        width: 300px;
+        /* background-color: #FB4B00; */
+        padding: 50px;
+        width: 400px;
+        align-items: center;
         text-align: justify;
     }
 
@@ -403,8 +429,12 @@ padding: 10px;
     }
 
     .footer {
+        padding: 0px 0px;
         width: 100%;
-        display: block;
+        display: inline-flex;
+        justify-content: flex-start;
+        border-radius: 0px;
+        gap: 5px
     }
 
     .footer2 {
@@ -460,7 +490,7 @@ padding: 10px;
         font-size: 2rem;
     }
 
-    .divEquipo2{
+    .divEquipo2 {
         display: grid;
     }
 
@@ -474,7 +504,7 @@ padding: 10px;
         font-family: "Open Sans", Sans-serif;
     }
 
-    .contenedor-proyecto{
+    .contenedor-proyecto {
         display: grid;
     }
 
@@ -502,6 +532,21 @@ padding: 10px;
         text-align: center;
     }
 
+    .container-formulario {
+        width: 100%;
+        height: 100%;
+    }
+
+    .formulario {
+        width: 300px;
+        height: 300px;
+
+    }
+
+    .formulario2 {
+        width: 120px;
+    }
+
     .contacto {
         padding: 10px;
         width: 100%;
@@ -517,13 +562,6 @@ padding: 10px;
         font-size: 1rem;
     }
 
-    .formulario {
-        align-items: center;
-    }
-
-    .formulario2 {
-        display: grid;
-    }
 
 }
 
