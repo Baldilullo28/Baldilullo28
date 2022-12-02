@@ -7,13 +7,17 @@
 
 
 /* BODY */
-
+body{
+    width: 100%;
+    height: 100%;
+}
 .home {
     background: #22242A;
     background-image: url(../img/vector.svg);
     background-size: contain;
     background-repeat: repeat;
-    width: 100vmax;
+    width: 100%;
+    height: 100%;
     color: #fcfcfc;
 
 
@@ -278,7 +282,6 @@ header ul li {
 .footer {
     width: 100%;
     background: #FCFCFC;
-    border-radius: 16px;
     color: #22242A;
     padding: 50px 20px;
     display: flex;
