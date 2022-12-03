@@ -262,7 +262,7 @@ picture img {
 }
 
 .contacto2 {
-    padding-top:10px;
+    padding-top: 10px;
     height: 100%;
 
 }
@@ -403,14 +403,12 @@ picture img {
     }
 
     .equipo-container {
-        /* background-color: aqua; */
-        width: 100%;
+            width: 100%;
         height: 100%;
         text-align: center;
     }
 
     .divEquipo p {
-        /* background-color: #FB4B00; */
         padding: 50px;
         width: 400px;
         align-items: center;
@@ -421,10 +419,13 @@ picture img {
 
     .tarjetas {
         width: 100%;
-        flex-direction: column;
-        flex-wrap: wrap;
         position: relative;
-        right: 250px;
+        margin-left: 10px;
+        margin-right:0px;
+    }
+
+    picture img{
+        font-size: 10px;
     }
 
     .proyecto2 {
@@ -434,10 +435,6 @@ picture img {
 
     .proyecto-img {
         width: 200px;
-    }
-
-    .tarjeta-s {
-        background-color: #FB4B00;
     }
 
     .proyecto {
@@ -487,6 +484,16 @@ picture img {
 
     }
 
+    .vector2 {
+        position: absolute;
+        left: 475px;
+        top: 240px;
+    }
+
+    .vector2 img {
+        width: 300px;
+    }
+
     header .navBar {
         width: 100%;
         font-size: 0.9rem;
@@ -528,8 +535,12 @@ picture img {
 
     .divEquipo2 {
         display: flex;
-        justify-content: flex-end;
+        justify-content:flex-end;
         align-items: center;
+    }
+
+    .divEquipo2 picture img {
+        width: 100px;
     }
 
     .divEquipo {
@@ -542,19 +553,23 @@ picture img {
         margin-left: 90px;
 
     }
+    .contacto{
+        margin: 0px;
+    }
+    .contacto2 {
+        width: 100%;
+        height: 100%;
+    }
+
 
 
     .equipo-container p {
         font-size: 1rem;
         font-family: "Open Sans", Sans-serif;
     }
-
-    /* .contenedor-proyecto {
-        display: grid;
-    }  */
-
     .proyecto {
         color: #fcfcfc;
+        margin: 0px;
     }
 
     .proyecto h2 {
@@ -578,8 +593,8 @@ picture img {
     }
 
     .container-formulario {
-        width: 100%;
-        height: 100%;
+        width: 90%;
+        height: 90%;
     }
 
     .formulario {
@@ -681,7 +696,7 @@ picture img {
 
 .tarjetas {
     font-size: 12px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 
 }
 
