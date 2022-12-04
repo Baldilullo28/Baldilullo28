@@ -326,28 +326,19 @@ picture img {
 
 @media screen and (max-width:760px) {
     .home {
-        width: 100vh;
+        width: 100%;
     }
- /* .vector img{
-    width: 10px;
- } */
-    
+.vector2{
+    display: none;
+}
+
+.vector{
+    display: none;
+}
+
 
     .main1 {
         width: 100%;
-    }
-
-    header .navBar {
-        display: inline-block;
-
-
-
-    }
-
-    .navBar {
-
-        width: 10%;
-        margin: 0px;
     }
 
     .enfasis {
@@ -357,16 +348,26 @@ picture img {
     }
 
     .enfasis h1 {
-        font-size: 2.5rem;
-        width: 400px;
+        font-size: 2rem;
+        width: 300px;
 
     }
 
+    .navBar{
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+header ul li{
+    width: 65px;
+}
+
     .enfasis .subtitulo1 {
-        width: 400px;
-        font-size: 2.5rem;
+        font-size: 1.5rem;
+        width: 300px;
         margin: 0px;
         padding: 0px;
+        margin: 0px;
     }
 
     .enfasis .p1 {
@@ -395,13 +396,19 @@ picture img {
         font-size: 2rem;
     }
 
+    .divEquipo2{
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: flex-end;
+    }
+
     .divEquipo h2 {
         font-size: 2rem;
     }
 
     .divEquipo h3 {
 
-        width: 400px;
+        /* width: 400px; */
         font-size: 1.5rem;
         padding-bottom: 30px;
 
@@ -414,8 +421,6 @@ picture img {
     }
 
     .divEquipo p {
-        padding: 50px;
-        width: 400px;
         align-items: center;
         text-align: justify;
     }
@@ -425,7 +430,7 @@ picture img {
     .tarjetas {
         width: 100%;
         position: relative;
-        margin-left: 10px;
+        margin-left: 0px;
         margin-right: 0px;
     }
 
@@ -433,6 +438,9 @@ picture img {
         font-size: 10px;
     }
 
+    .contenedor-proyecto{
+        flex-direction: column;
+    }
     .proyecto2 {
         text-align: center;
         padding: 20px;
@@ -467,6 +475,7 @@ picture img {
     }
 
     .footer {
+        font-size: 0.9rem;
         padding: 0px 0px;
         width: 100%;
         display: inline-flex;
@@ -476,7 +485,7 @@ picture img {
     }
 
     .footer2 {
-        /* background-color: #FB4B00; */
+        width: 100%;
         padding: 0px;
         margin: 0px;
         text-align: center;
@@ -540,7 +549,7 @@ picture img {
 
     .divEquipo2 {
         display: flex;
-        justify-content: flex-end;
+        /* justify-content: flex-end; */
         align-items: center;
     }
 
