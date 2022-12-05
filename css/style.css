@@ -699,7 +699,11 @@ body {
 width: 100%;
 height: 100%;
 }
-
+.container-linea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
 .titulo3 {
     text-align: center;
     font-weight: 700;
@@ -716,7 +720,7 @@ height: 100%;
 }
 
 .servicios-tarjeta {
-    margin: 15px;
+    margin: 9px;
     margin-top: 0px;
     text-align: center;
     /* text-decoration:underline #FB4B00; */
