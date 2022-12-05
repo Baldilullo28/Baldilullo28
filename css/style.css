@@ -215,7 +215,7 @@ picture img {
     width: 160px;
 }
 
-.equipo-container { 
+.equipo-container {
     justify-content: center;
     text-align: center;
     font-family: 'Arial';
@@ -328,13 +328,14 @@ picture img {
     .home {
         width: 100%;
     }
-.vector2{
-    display: none;
-}
 
-.vector{
-    display: none;
-}
+    .vector2 {
+        display: none;
+    }
+
+    .vector {
+        display: none;
+    }
 
 
     .main1 {
@@ -353,14 +354,14 @@ picture img {
 
     }
 
-    .navBar{
+    .navBar {
         align-items: flex-start;
         flex-direction: column;
     }
 
-header ul li{
-    width: 65px;
-}
+    header ul li {
+        width: 65px;
+    }
 
     .enfasis .subtitulo1 {
         font-size: 1.5rem;
@@ -396,7 +397,7 @@ header ul li{
         font-size: 2rem;
     }
 
-    .divEquipo2{
+    .divEquipo2 {
         flex-direction: column;
         flex-wrap: wrap;
         align-content: flex-end;
@@ -438,9 +439,10 @@ header ul li{
         font-size: 10px;
     }
 
-    .contenedor-proyecto{
+    .contenedor-proyecto {
         flex-direction: column;
     }
+
     .proyecto2 {
         text-align: center;
         padding: 20px;
@@ -673,6 +675,7 @@ header ul li{
 }
 
 .div-1empresa {
+    margin: 100px;
     line-height: 28px;
     font-weight: 400;
     font-size: 1rem;
@@ -688,6 +691,15 @@ header ul li{
 
 
 /* HTML SERVICIOS */
+body {
+    width: 100%;
+    height: 100%;
+}
+.home{
+width: 100%;
+height: 100%;
+}
+
 .titulo3 {
     text-align: center;
     font-weight: 700;
@@ -713,7 +725,6 @@ header ul li{
 
 .tarjetas {
     font-size: 12px;
-    /* margin-left: 150px; */
 
 }
 
@@ -721,17 +732,51 @@ header ul li{
     padding: 50px;
 }
 
+.tarjetas2 img {
+    width: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img2{
+    margin-top: 40px;
+}
+
+.img3{
+    margin-top: 60px;
+}
+.img4{
+    margin-top: 80px;
+}
+
+.tarjetas2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .tarjeta-s {
+    width: 300px;
+    height: 320px;
     background: #22242A;
     border-radius: 8px;
     padding: 20px;
-    margin: 25px;
+    margin: 10px;
+    text-align: center;
     justify-items: center;
     align-items: center;
 
 }
 
 .tarjeta-s p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 250px;
     margin-bottom: 15px;
 
 }
@@ -742,6 +787,7 @@ header ul li{
     height: 0px;
     right: 500px;
 }
+
 
 
 
