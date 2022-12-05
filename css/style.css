@@ -830,6 +830,21 @@ height: 100%;
 }
     
 
+@media screen and (max-width:1000px){
+
+    .tarjetas2 img {
+        display: none;
+    }
+    .tarjeta-s{
+        width: 240px; 
+        height: 260px;
+    }
+    .tarjeta-s p{
+        font-size: 13px;
+        width: 190px;
+    }
+}
+
 
 
 
