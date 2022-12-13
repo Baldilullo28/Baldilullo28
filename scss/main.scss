@@ -1,0 +1,16 @@
+@import"./utils/mixin";
+@import"./utils/variables";
+
+
+@import"./base/base";
+
+@import"./components/botones";
+@import"./components/navbar";
+@import"./components/tarjeta";
+
+@import"./pages/contacto";
+@import"./pages/empresa";
+@import"./pages/index";
+@import"./pages/servicios";
+@import"./pages/tecnologiacloud";
+@import"./pages/tecnologiadesarrollo";

@@ -19,8 +19,7 @@ ol {
   padding: 10px 20px;
   margin-bottom: 15px;
   background: rgba(17, 19, 22, 0.8);
-  -webkit-backdrop-filter: blur(7.5px);
-          backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
   backdrop-filter: blur(7.5px);
   display: flex;
   justify-content: space-between;
@@ -78,8 +77,7 @@ ol {
   margin-top: 30px;
   margin: 40px;
   background: rgba(72, 72, 85, 0.7);
-  -webkit-backdrop-filter: blur(7.5px);
-          backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
 }
 
 .div-1empresa {
@@ -224,8 +222,7 @@ header ul li {
 
 .div1 {
   background: rgba(72, 72, 85, 0.7);
-  -webkit-backdrop-filter: blur(7.5px);
-          backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
   margin: 100px;
   margin-bottom: 0px;
   padding: 20px;
@@ -751,8 +748,7 @@ body {
   padding: 20px;
   margin-bottom: 15px;
   background: rgba(17, 19, 22, 0.8);
-  -webkit-backdrop-filter: blur(7.5px);
-          backdrop-filter: blur(7.5px);
+  backdrop-filter: blur(7.5px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -785,4 +781,6 @@ li {
   right: 1.86%;
   top: 27.1%;
   bottom: -0.12%;
-}/*# sourceMappingURL=main.css.map */
+}
+
+/*# sourceMappingURL=styles.css.map */

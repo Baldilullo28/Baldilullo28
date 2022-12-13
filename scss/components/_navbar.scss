@@ -1,0 +1,25 @@
+.navBar {
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    background: rgba(17, 19, 22, 0.8);
+    backdrop-filter: blur(7.5px);
+    backdrop-filter: blur(7.5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+
+.navBar p {
+    padding: 15px;
+    height: 450px;
+    width: 59%;
+
+}
+
+.navBar ul li a:hover {
+    background-color: #fb4b0055;
+    ;
+    padding: 8px;
+    border-radius: 2px;
+    all: 1s;
+}

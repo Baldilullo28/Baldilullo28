@@ -1,0 +1,160 @@
+
+/* HTML SERVICIOS */
+body {
+    width: 100%;
+    height: 100%;
+}
+.home{
+width: 100%;
+height: 100%;
+}
+
+.container-linea{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+.titulo3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.subtitulo-servicios {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 28px;
+    font-weight: 400;
+
+}
+
+.servicios-tarjeta {
+    margin: 9px;
+    margin-top: 0px;
+    text-align: center;
+    /* text-decoration:underline #FB4B00; */
+
+}
+
+.tarjetas {
+    font-size: 12px;
+
+}
+
+.divEquipo {
+    padding: 50px;
+}
+
+.tarjetas2 img {
+    width: 120px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.img2{
+    margin-top: 40px;
+}
+
+.img3{
+    margin-top: 60px;
+}
+.img4{
+    margin-top: 80px;
+}
+
+.tarjetas2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-s {
+    width: 300px;
+    height: 320px;
+    background: #22242A;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.tarjeta-s p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    width: 250px;
+    margin-bottom: 15px;
+
+}
+
+.linea-serv {
+    border: 2px solid #FB4B00;
+    width: 67px;
+    height: 0px;
+    right: 500px;
+}
+
+@media  screen and ( max-width:760px){
+
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .main2{
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+    }
+
+    .tarjetas2{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .footer ul li {
+        list-style: none;
+    }
+
+    .footer {
+        font-size: 0.9rem;
+        padding: 0px 0px;
+        width: 100%;
+        display: inline-flex;
+        justify-content: flex-start;
+        border-radius: 0px;
+        gap: 5px
+    }
+
+    .footer2 {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+}
+    
+
+@media screen and (max-width:1000px){
+
+    .tarjetas2 img {
+        display: none;
+    }
+    .tarjeta-s{
+        width: 240px; 
+        height: 260px;
+    }
+    .tarjeta-s p{
+        font-size: 13px;
+        width: 190px;
+    }
+}
