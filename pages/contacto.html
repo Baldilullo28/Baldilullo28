@@ -5,20 +5,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Document</title>
 </head>
 
 <body class="home">
     <header>
-        <h1 class="titulo3">Contacto</h1>
+        <nav class="navBar">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./empresa.html">Empresa</a> </li>
+                <li><a href="./servicios.html">Servicios</a></li>
+                <li><a href="./tecnologiacloud.html">Tec Cloud</a></li>
+                <li><a href="./tecnologiadesarrollo.html">Tec Dev</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+
+            </ul>
+        </nav>
     </header>
+
+    <div>
+        <h1 class="titulo3">Contacto</h1>
+    </div>
 
     <main>
         <section class="contacto">
             <div class="contacto2">
                 <div class="contacto2">
-                    <h2>Contacto</h2>
                     <span>Nos encantaria hablar sobre como podemos ayudarte</span>
                     <div class="icon-contacto">
                         <i class="bi bi-envelope-fill"></i>
@@ -43,21 +57,41 @@
                 </div>
             </div>
 
-        <form action="">
-            <div><input type="text" id="usuario-nombre"></div>
+            <div class="container-formulario">
 
 
-            <div><input type="text" id="usuario-apellido"></div>
+                <form class="formulario" action="">
+                    <div class="formulario1">
+                        <div><input class="formulario2" type="Nombre" id="usuario-nombre" placeholder="Nombre">
+                        </div>
+
+                        <div><input class="formulario2" type="Apellido" id="usuario-apellido"
+                                placeholder="Apellido">
+                        </div>
+                    </div>
 
 
+                    <div class="formulario1">
+                        <div><input class="formulario2" type="Mail" name="Correo Electronico"
+                                placeholder="Correo electronico">
+                        </div>
+                    </div>
 
-            <div> <input type="email" name="Correo Electronico"></div>
+                    <div class="formulario1">
+                        <div>
+                            <textarea name="" id="" cols="40" rows="10" placeholder="Mensaje"></textarea>
+                        </div>
+                    </div>
 
-            <div><textarea name="" id="" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar Mensaje">
-            </div>
+                    <div class="formulario1">
+                        <div>
+                            <input class="formulario2" type="submit" value="Enviar Mensaje">
+                        </div>
+                    </div>
 
-        </form>
+
+                </form>
+            </div> 
     </main>
 
     <footer class="footer">

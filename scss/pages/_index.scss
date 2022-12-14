@@ -89,7 +89,7 @@ header ul li {
 
 
 .palabraColor {
-    color: #FB4B00;
+    $color-primario: #FB4B00;
 }
 
 .enfasis {
@@ -136,7 +136,7 @@ header ul li {
     color: #fcfcfc;
     margin-top: 50px;
     margin-bottom: 80px;
-    background: #FB4B00;
+    background: $color-primario; 
     border: 0;
     border-radius: 5px;
     padding: 8px;
@@ -197,7 +197,7 @@ picture img {
 
 .icon-contacto i {
     font-size: 2rem;
-    color: #FB4B00;
+    color: $color-primario ;
 }
 
 
@@ -322,7 +322,7 @@ picture img {
 
     .enfasis .p1 {
         font-size: 1rem;
-        background-color: #FB4B00;
+        background-color: $color-primario;
         width: 300px;
 
     }
