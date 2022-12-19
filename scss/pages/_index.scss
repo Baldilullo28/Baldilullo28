@@ -237,7 +237,8 @@ picture img {
 
 .formulario {
     background-color: #ffffff;
-    width: 80%;
+    width: 300px;
+    height: 320px;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 30px;
@@ -273,7 +274,7 @@ picture img {
     color: #6B7280;
 }
 
-@media screen and (max-width:760px) {
+@media (max-width:760px) {
     .home {
         width: 100%;
     }
@@ -416,10 +417,10 @@ picture img {
         text-align: center;
     }
 
-    .formulario {
-        text-align: center;
-        width: 100%;
-    }
+    // .formulario {
+    //     text-align: center;
+    //     width: 100%;
+    // }
 
     .footer ul li {
         list-style: none;

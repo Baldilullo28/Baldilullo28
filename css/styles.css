@@ -22,7 +22,7 @@ ol {
   backdrop-filter: blur(7.5px);
   backdrop-filter: blur(7.5px);
   display: flex;
-  justify-content: space-between;
+  justify-content: sp;
   align-items: center;
 }
 
@@ -46,6 +46,7 @@ ol {
 
 .formulario {
   width: 300px;
+  height: 0px;
 }
 
 .formulario2 {
@@ -87,6 +88,17 @@ ol {
   padding: 40px;
 }
 
+@media (max-width: 760px) {
+  .div-1empresa {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+}
 body {
   width: 100%;
   height: 100%;
@@ -163,10 +175,6 @@ header ul li {
   font-size: 2.5rem;
   line-height: 137.5%;
   margin-bottom: 40px;
-}
-
-.palabraColor {
-  color: #FB4B00;
 }
 
 .enfasis {
@@ -294,13 +302,14 @@ picture img {
 
 .container-formulario {
   padding-top: 30px;
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
 
 .formulario {
   background-color: #ffffff;
-  width: 80%;
+  width: 300px;
+  height: 320px;
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 30px;
@@ -315,7 +324,6 @@ picture img {
   align-items: center;
   gap: 20px;
 }
-
 
 .footer {
   width: 100%;
@@ -335,42 +343,34 @@ picture img {
   color: #6B7280;
 }
 
-@media screen and (max-width: 760px) {
+@media (max-width: 760px) {
   .home {
     width: 100%;
   }
-
   .vector2 {
     display: none;
   }
-
   .vector {
     display: none;
   }
-
   .main1 {
     width: 100%;
   }
-
   .enfasis {
     padding: 0px;
     margin: 0px;
   }
-
   .enfasis h1 {
     font-size: 2rem;
     width: 300px;
   }
-
   .navBar {
     align-items: flex-start;
     flex-direction: column;
   }
-
   header ul li {
     width: 65px;
   }
-
   .enfasis .subtitulo1 {
     font-size: 1.5rem;
     width: 300px;
@@ -378,103 +378,79 @@ picture img {
     padding: 0px;
     margin: 0px;
   }
-
   .enfasis .p1 {
     font-size: 1rem;
     background-color: #FB4B00;
     width: 300px;
   }
-
   .enfasis .p2 {
     font-size: 1rem;
     width: 300px;
   }
-
   .div1 {
     width: 100%;
     font-size: 1rem;
     margin: 0px;
   }
-
   .div1 .subtitulo2 {
     font-size: 2rem;
   }
-
   .divEquipo2 {
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
   }
-
   .divEquipo h2 {
     font-size: 2rem;
   }
-
   .divEquipo h3 {
     /* width: 400px; */
     font-size: 1.5rem;
     padding-bottom: 30px;
   }
-
   .equipo-container {
     width: 100%;
     height: 100%;
     text-align: center;
   }
-
   .divEquipo p {
     align-items: center;
     text-align: justify;
   }
-
   .tarjetas {
     width: 100%;
     position: relative;
     margin-left: 0px;
     margin-right: 0px;
   }
-
   picture img {
     font-size: 10px;
   }
-
   .contenedor-proyecto {
     flex-direction: column;
   }
-
   .proyecto2 {
     text-align: center;
     padding: 20px;
   }
-
   .proyecto-img {
     width: 200px;
   }
-
   .proyecto {
     margin-top: 30px;
     background-color: rgba(72, 72, 85, 0.7);
   }
-
   .proyecto h2 {
     text-align: center;
     font-size: 1.7rem;
   }
-
   .proyecto h3 {
     font-size: 1.1rem;
     text-align: center;
   }
-
-  .formulario {
-    text-align: center;
-    width: 100%;
-  }
-
   .footer ul li {
     list-style: none;
   }
-
   .footer {
     font-size: 0.9rem;
     padding: 0px 0px;
@@ -484,7 +460,6 @@ picture img {
     border-radius: 0px;
     gap: 5px;
   }
-
   .footer2 {
     width: 100%;
     padding: 0px;
@@ -492,146 +467,117 @@ picture img {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 1200px) {
   .home {
     width: 100%;
   }
-
   .vector2 {
     position: absolute;
     left: 650px;
     top: 240px;
   }
-
   .vector2 img {
     width: 300px;
   }
-
   header .navBar {
     width: 100%;
     font-size: 0.9rem;
     justify-content: space-around;
   }
-
   .img-logo {
     width: 110px;
   }
-
   .titulo1 {
     font-size: 3rem;
   }
-
   .subtitulo1 {
     font-size: 2rem;
     padding: 0px;
     margin: 0px;
     font-family: "Open Sans", Sans-serif;
   }
-
   .enfasis p {
     font-size: 1rem;
   }
-
   button {
     width: 80px;
     font-size: 1rem;
   }
-
   .div1 {
     font-size: 1rem;
     line-height: 20px;
   }
-
   .div1 .subtitulo2 {
     font-size: 2rem;
   }
-
   .divEquipo2 {
     display: flex;
     /* justify-content: flex-end; */
     align-items: center;
   }
-
   .divEquipo2 picture img {
     width: 100px;
   }
-
   .divEquipo {
     padding: 0px;
     margin: 0px;
   }
-
   .tarjetas {
     font-size: 12px;
     margin-left: 90px;
   }
-
   .contacto {
     margin: 0px;
   }
-
   .contacto2 {
     width: 100%;
     height: 100%;
   }
-
   .equipo-container p {
     font-size: 1rem;
     font-family: "Open Sans", Sans-serif;
   }
-
   .proyecto {
     color: #fcfcfc;
     margin: 0px;
   }
-
   .proyecto h2 {
     font-size: 2rem;
     text-align: center;
   }
-
   .proyecto h3 {
     font-size: 1rem;
     text-align: center;
   }
-
   .proyecto2 {
     text-align: center;
   }
-
   .proyecto2 p {
     font-size: 1rem;
     text-align: center;
   }
-
   .container-formulario {
     width: 90%;
     height: 90%;
   }
-
   .formulario {
     width: 300px;
+    height: 0px;
   }
-
   .formulario2 {
     width: 120px;
   }
-
   .contacto {
     padding: 10px;
     width: 100%;
   }
-
   .contacto h2 {
     font-size: 2rem;
   }
-
   .contacto span {
     font-size: 1rem;
   }
 }
-
 /* HTML SERVICIOS */
 body {
   width: 100%;
@@ -738,24 +684,20 @@ body {
     width: 100%;
     height: 100%;
   }
-
   .main2 {
     width: 100%;
     height: 100%;
     margin: 0px;
   }
-
   .tarjetas2 {
     width: 100%;
     height: 100%;
     flex-direction: column;
     align-items: center;
   }
-
   .footer ul li {
     list-style: none;
   }
-
   .footer {
     font-size: 0.9rem;
     padding: 0px 0px;
@@ -765,7 +707,6 @@ body {
     border-radius: 0px;
     gap: 5px;
   }
-
   .footer2 {
     width: 100%;
     padding: 0px;
@@ -773,23 +714,19 @@ body {
     text-align: center;
   }
 }
-
 @media screen and (max-width: 1000px) {
   .tarjetas2 img {
     display: none;
   }
-
   .tarjeta-s {
     width: 240px;
     height: 260px;
   }
-
   .tarjeta-s p {
     font-size: 13px;
     width: 190px;
   }
 }
-
 /* HTML TECNOLOGIA CLOUD */
 .div-cloud {
   background: rgba(72, 72, 85, 0.7);
@@ -803,6 +740,11 @@ body {
   right: 10%;
   top: 225%;
   bottom: 15%;
+}
+
+.subt {
+  justify-content: center;
+  text-align: center;
 }
 
 /* HTML DEVOPS */

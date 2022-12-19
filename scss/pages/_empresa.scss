@@ -27,12 +27,16 @@
     padding: 40px;
 }
 
-@media screen and(max-width:760px){
+@media(max-width:760px){
     .div-1empresa{
-        margin-top: 10px;
+        margin: 0px;
         padding: 0px;
         font-size: 0.9rem;
 
+    }
+    h1{
+        font-size: 2rem;
+        margin-bottom: 20px;
     }
     
 }
