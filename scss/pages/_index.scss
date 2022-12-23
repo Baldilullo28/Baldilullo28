@@ -48,10 +48,10 @@ header ul li {
 
 /* CONTENIDO DE LA PAGINAA */
 .main1 {
-    position: relative;
     padding: 40px;
     margin-top: 30px;
     width: 100%;
+    height: 100%;
 }
 
 .titulo1 {
@@ -292,7 +292,10 @@ textarea {
     color: #6B7280;
 }
 
-@media (max-width:800px) {
+@media (max-width:900px) {
+    body{
+    width: 100%;
+    }
     .home {
         width: 100%;
     }
@@ -325,6 +328,7 @@ textarea {
     .navBar {
         align-items: flex-start;
         flex-direction: column;
+
     }
 
     header ul li {
@@ -435,6 +439,13 @@ textarea {
         text-align: center;
     }
 
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-formulario{
+        display: inline;
+    }
     .formulario3{
         width: 260px;
     }
@@ -549,7 +560,13 @@ textarea {
         height: 100%;
     }
 
+    .formulario3{
+        width: 260px;
+    }
 
+    textarea{
+        width: 260px;
+    }
 
     .equipo-container p {
         font-size: 1rem;
