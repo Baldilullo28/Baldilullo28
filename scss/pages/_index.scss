@@ -67,7 +67,7 @@ header ul li {
 
 .vector2 {
     position: absolute;
-    left: 839px;
+    left: 783px;
     top: 240px;
 }
 
@@ -134,7 +134,7 @@ header ul li {
     color: #fcfcfc;
     margin-top: 50px;
     margin-bottom: 80px;
-    background: $color-primario; 
+    background: $color-primario;
     border: 0;
     border-radius: 5px;
     padding: 8px;
@@ -272,7 +272,7 @@ picture img {
     color: #6B7280;
 }
 
-@media (max-width:760px) {
+@media (max-width:800px) {
     .home {
         width: 100%;
     }
@@ -415,11 +415,6 @@ picture img {
         text-align: center;
     }
 
-    // .formulario {
-    //     text-align: center;
-    //     width: 100%;
-    // }
-
     .footer ul li {
         list-style: none;
     }
@@ -450,7 +445,7 @@ picture img {
 
     .vector2 {
         position: absolute;
-        left: 650px;
+        left: 600px;
         top: 240px;
     }
 
@@ -563,9 +558,9 @@ picture img {
         width: 90%;
         height: 90%;
     }
-    .formulario{
-        width: 300px;
-        height: 0px;
+
+    .formulario {
+        width: 300px
 
     }
 
@@ -590,5 +585,3 @@ picture img {
 
 
 }
-
-

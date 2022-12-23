@@ -22,7 +22,7 @@ ol {
   backdrop-filter: blur(7.5px);
   backdrop-filter: blur(7.5px);
   display: flex;
-  justify-content: sp;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -54,7 +54,6 @@ ol {
 }
 
 .contacto {
-  display: flex;
   padding: 10px;
   width: 100%;
 }
@@ -161,7 +160,7 @@ header ul li {
 
 .vector2 {
   position: absolute;
-  left: 834px;
+  left: 783px;
   top: 240px;
 }
 
@@ -279,7 +278,6 @@ picture img {
 
 .contacto {
   /* background-color: #FB4B00; */
-  display: inline;
   width: 87.6%;
   margin-left: 100px;
   margin-right: 100px;
@@ -345,7 +343,7 @@ picture img {
   color: #6B7280;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
   .home {
     width: 100%;
   }
@@ -469,13 +467,13 @@ picture img {
     text-align: center;
   }
 }
-@media (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
   .home {
     width: 100%;
   }
   .vector2 {
     position: absolute;
-    left: 580px;
+    left: 600px;
     top: 240px;
   }
   .vector2 img {
@@ -564,7 +562,7 @@ picture img {
   }
   .formulario {
     width: 300px;
-    }
+  }
   .formulario2 {
     width: 120px;
   }
