@@ -468,6 +468,12 @@ textarea {
     font-size: 1.1rem;
     text-align: center;
   }
+  .formulario3 {
+    width: 260px;
+  }
+  textarea {
+    width: 260px;
+  }
   .footer ul li {
     list-style: none;
   }
