@@ -19,7 +19,8 @@ ol {
   padding: 10px 20px;
   margin-bottom: 15px;
   background: rgba(17, 19, 22, 0.8);
-  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
   backdrop-filter: blur(7.5px);
   display: flex;
   justify-content: sp;
@@ -54,7 +55,6 @@ ol {
 }
 
 .contacto {
-  display: flex;
   padding: 10px;
   width: 100%;
 }
@@ -78,7 +78,8 @@ ol {
   margin-top: 30px;
   margin: 40px;
   background: rgba(72, 72, 85, 0.7);
-  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
 }
 
 .div-1empresa {
@@ -161,7 +162,7 @@ header ul li {
 
 .vector2 {
   position: absolute;
-  left: 834px;
+  left: 839px;
   top: 240px;
 }
 
@@ -230,7 +231,8 @@ header ul li {
 
 .div1 {
   background: rgba(72, 72, 85, 0.7);
-  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
   margin: 100px;
   margin-bottom: 0px;
   padding: 20px;
@@ -279,7 +281,6 @@ picture img {
 
 .contacto {
   /* background-color: #FB4B00; */
-  display: inline;
   width: 87.6%;
   margin-left: 100px;
   margin-right: 100px;
@@ -469,13 +470,13 @@ picture img {
     text-align: center;
   }
 }
-@media (max-width: 1600px) {
+@media screen and (max-width: 1200px) {
   .home {
     width: 100%;
   }
   .vector2 {
     position: absolute;
-    left: 580px;
+    left: 650px;
     top: 240px;
   }
   .vector2 img {
@@ -564,7 +565,8 @@ picture img {
   }
   .formulario {
     width: 300px;
-    }
+    height: 0px;
+  }
   .formulario2 {
     width: 120px;
   }
@@ -753,7 +755,8 @@ body {
   padding: 20px;
   margin-bottom: 15px;
   background: rgba(17, 19, 22, 0.8);
-  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+          backdrop-filter: blur(7.5px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -786,6 +789,4 @@ li {
   right: 1.86%;
   top: 27.1%;
   bottom: -0.12%;
-}
-
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=main.css.map */
