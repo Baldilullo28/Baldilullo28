@@ -8,27 +8,41 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./css/styles.css">
 
-    <title>Necuimaproyect</title>
+    <title>Necuima Software Factory Buenos Aires</title>
 </head>
 
 <body>
 
     <div class="home">
 
-        <header>
-            <nav class="navBar">
-
-
-                <img class="img-logo" src="./img/Logo.svg" alt="logo">
-                <ul>
-                    <li><a href="./pages/empresa.html">Empresa</a> </li>
-                    <li><a href="./pages/servicios.html">Servicios</a></li>
-                    <li><a href="./pages/tecnologiacloud.html">Tec Cloud</a></li>
-                    <li><a href="./pages/tecnologiadesarrollo.html">Tec Dev</a></li>
-                    <li><a href="./pages/contacto.html">Contacto</a></li>
-
-                </ul>
-            </nav>
+        <header class="navbar navbar-expand-lg navbar-dark"
+            style="background: rgba(17, 19, 22, 0.8); backdrop-filter: blur(7.5px);">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="./img/Logo.svg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/empresa.html">Empresa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./pages/tecnologiacloud.html">Tec Cloud</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/tecnologiadesarrollo.html">Tec Dev</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <div>
@@ -216,7 +230,7 @@
 
                     </form>
                 </div>
-                
+
             </section>
 
 
@@ -224,7 +238,8 @@
         </main>
 
 
-        <footer class="footer">
+        <footer class=" footer ">
+            <div class="container footer">
             <div class="footer2">
                 <div>
                     <img src="./img/Capa 2.svg" alt="">
@@ -263,8 +278,13 @@
                     <li>LinkedIn</li>
                 </ul>
             </div>
+        </div>
         </footer>
     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
