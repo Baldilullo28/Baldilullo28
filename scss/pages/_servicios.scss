@@ -1,19 +1,19 @@
-
 /* HTML SERVICIOS */
 body {
     width: 100%;
     height: 100%;
 }
-.home{
-width: 100%;
-height: 100%;
+
+.home {
+    width: 100%;
+    height: 100%;
 }
 
-.container-linea{
+.container-linea {
     display: flex;
     justify-content: center;
-    margin-bottom: 5px;
 }
+
 .titulo3 {
     text-align: center;
     font-weight: 700;
@@ -29,8 +29,13 @@ height: 100%;
 
 }
 
+.servicios-tarjeta-1 {
+    
+    font-size: 1.4rem;
+}
+
 .servicios-tarjeta {
-    margin: 9px;
+    font-size: 1.4rem;
     margin-top: 0px;
     text-align: center;
     /* text-decoration:underline #FB4B00; */
@@ -47,21 +52,22 @@ height: 100%;
 }
 
 .tarjetas2 img {
-    width: 120px;
+    width: 100px;
     justify-content: center;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
-.img2{
+.img2 {
+    margin-top: 35px;
+}
+
+.img3 {
     margin-top: 40px;
 }
 
-.img3{
-    margin-top: 60px;
-}
-.img4{
-    margin-top: 80px;
+.img4 {
+    margin-top: 65px;
 }
 
 .tarjetas2 {
@@ -87,7 +93,7 @@ height: 100%;
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 16px;
     text-align: center;
     width: 250px;
@@ -102,25 +108,30 @@ height: 100%;
     right: 500px;
 }
 
-@media  screen and ( max-width:760px){
+@media screen and (max-width:760px) {
 
-    body{
+    body {
         width: 100%;
         height: 100%;
     }
-    .main2{
+
+    .main2 {
         width: 100%;
         height: 100%;
         margin: 0px;
     }
 
-    .tarjetas2{
+    .servicios-tarjeta-1 {
+        font-size: 0.7rem;
+    }
+
+    .tarjetas2 {
         width: 100%;
         height: 100%;
         flex-direction: column;
         align-items: center;
     }
-    
+
     .footer ul li {
         list-style: none;
     }
@@ -142,19 +153,28 @@ height: 100%;
         text-align: center;
     }
 }
-    
 
-@media screen and (max-width:1000px){
 
+@media screen and (max-width:1000px) {
+
+    .servicios-tarjeta-1{
+        font-size: 1rem;
+    }
+
+    .servicios-tarjeta{
+        font-size: 1rem;
+    }
     .tarjetas2 img {
         display: none;
     }
-    .tarjeta-s{
-        width: 240px; 
+
+    .tarjeta-s {
+        width: 240px;
         height: 260px;
     }
-    .tarjeta-s p{
-        font-size: 13px;
+
+    .tarjeta-s p {
+        font-size: 0.7rem;
         width: 190px;
     }
 }
